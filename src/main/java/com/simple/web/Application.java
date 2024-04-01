@@ -20,7 +20,7 @@ public class Application {
 		return args -> {
 
 			System.out.println("Launching Tomcat Webservice...");
-			System.out.println("Beans used in this application:")
+			System.out.println("Beans used in this application:");
 
 			String[] beanNames = ctx.getBeanDefinitionNames();
 			Arrays.sort(beanNames);
